@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas JavaScript</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 id="judul">
+            Tugas JavaScript Dasar
+        </h1>
+
+        <p id="deskripsi">
+            Manipulasi DOM dan Event Handling
+        </p>
+
+        <!-- LATIHAN 1 -->
+        <div class="card">
+
+            <h2>Ubah Warna Background</h2>
+
+            <div class="warna-group">
+
+    <button id="btnPutih">
+        Putih
+    </button>
+
+    <button id="btnBiru">
+        Biru
+    </button>
+
+    <button id="btnKuning">
+        Kuning
+    </button>
+
+</div>
+
+        <!-- LATIHAN 2 -->
+        <div class="card">
+
+            <h2>Tampilkan Nama Mahasiswa</h2>
+
+            <input
+                type="text"
+                id="nama"
+                placeholder="Masukkan nama"
+            >
+
+            <button id="btnNama">
+                Tampilkan Nama
+            </button>
+
+            <p id="hasilNama"></p>
+
+        </div>
+
+        <!-- LATIHAN 3 -->
+        <div class="card">
+
+            <h2>Validasi Form Login</h2>
+
+            <form id="formLogin">
+
+                <label>Username</label>
+
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Masukkan username"
+                >
+
+                <span id="errorUsername" class="error"></span>
+
+                <label>Password</label>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Minimal 8 karakter"
+                >
+
+                <span id="errorPassword" class="error"></span>
+
+                <button type="submit">
+                    Login
+                </button>
+
+            </form>
+
+            <p id="pesanBerhasil"></p>
+
+        </div>
+
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
